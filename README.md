@@ -27,3 +27,27 @@ PRINTING ARRAYS
 asusual python print works.
 pretty print --> set_printoptions(threshold = <<number>>)
 number can be any number, to which the print wont summaize.
+
+BASIC OPERATIONS
+
+a.dot(b) will result in matrix multiplication.
+np.dot(a,b) also the same matrix multiplication.
+a (+ - * /) b -->  all works index to index addition/subtraction/multiplication/division
+a % 2 -> returns the result of all the elements in array
+a < 20 -> return true if the number is < 20 false if the number is greater.
+a *= 3 --> can be treated as any other primitive data type
+array.max() -> max element
+array.min() -> min element
+array.sum() -> sum of all elements
+numbers = np.arange(12).reshape(3,4)
+array([[ 0,  1,  2,  3],
+       [ 4,  5,  6,  7],
+       [ 8,  9, 10, 11]])
+array.sum(axis = 0) -> sums all the values in columns
+array.sum(axis = 1) -> sums all the values in a row
+array.min(axis = 0) -> finds the minimum in a column
+array.min(axis = 1) -> finds the maximum in a row
+
+
+
+

@@ -21,3 +21,9 @@ dtype=np.int16 is the additional param to initialize the type of values in m*n a
 7. shape - to get the row and column size
 8. reshape - row and column can be reshaped.
 9. ones_like - you can pass any array of row and column size, it will create the same dimension array with ones as value.
+
+PRINTING ARRAYS
+
+asusual python print works.
+pretty print --> set_printoptions(threshold = <<number>>)
+number can be any number, to which the print wont summaize.
